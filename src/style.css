@@ -1,0 +1,87 @@
+  body{
+    background: #fefcfc;
+    color: #6d6161;
+  }
+  
+  .card{
+    margin-bottom: 20px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+  }
+  .card-header-kasus{
+    width: 95%;
+    margin: 0 auto;
+    background: white;
+    text-align: center;
+  }
+  .card-header-kasus h5{
+    font-weight: bold;
+  }
+  .search-item{
+    margin-bottom: 10px;
+  }
+  .text-negara{
+    color: #cfc996;
+  }
+  .card-kasus .card-body {
+    text-align: center;
+  }
+  .card-kasus .card-title{
+    font-weight: bold;
+  }
+  .card-table{
+    position: relative;
+    height: 570px;
+    width: 99%;
+  }
+  .table-scroll tbody {
+    position: absolute;
+    overflow-y: scroll;
+    height: 425px;
+  }
+
+  .table-scroll tr {
+      width: 100%;
+      table-layout: fixed;
+      display: inline-table;
+  }
+
+  .table-scroll thead > tr > th {
+      border: none;
+  }
+
+ .bootstrap-select .btn {
+  background-color: white;
+  border: 0.2px solid #b8b8b8;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+}
+
+.text-positif-covid{
+  color: #50ce1e;
+}
+.text-sembuh{
+  color: #13cfd4;
+}
+.text-meninggal{
+  color: #ea1919;
+}
+
+@media screen and (max-width: 673px) {
+  .table{
+    width: 1200px;
+    overflow: auto;
+  }
+  
+  .table-scroll tbody {
+    position: absolute;
+  }
+
+  .table-scroll tr {
+      width: 1200px;
+      
+  }
+
+  .table-scroll thead > tr > th {
+      border: none;
+  }
+
+}
